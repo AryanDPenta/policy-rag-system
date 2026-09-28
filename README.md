@@ -40,7 +40,7 @@ User question ──► Embed ──► Retrieve top chunks ┘
 |---|---|
 | Language | Python |
 | Framework | LangChain |
-| Embeddings | `[EMBEDDING_MODEL]` |
+| Embeddings | `Grok 4 ` |
 | Vector store | `Postgres` |
 | LLM | `Grok` |
 
