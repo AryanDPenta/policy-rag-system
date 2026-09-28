@@ -41,9 +41,8 @@ User question ──► Embed ──► Retrieve top chunks ┘
 | Language | Python |
 | Framework | LangChain |
 | Embeddings | `[EMBEDDING_MODEL]` |
-| Vector store | `[VECTOR_DB]` |
-| LLM | `[LLM_NAME]` |
-| Interface | `[API / UI, e.g. FastAPI, Streamlit]` |
+| Vector store | `Postgres` |
+| LLM | `Grok` |
 
 ---
 
@@ -64,7 +63,7 @@ cp .env.example .env
 python [INGEST_SCRIPT].py
 
 # 5. Run the chatbot
-python [MAIN_SCRIPT].py
+python main.py
 ```
 
 ---
